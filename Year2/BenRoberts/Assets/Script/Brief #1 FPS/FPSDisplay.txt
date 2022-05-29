@@ -1,0 +1,10 @@
+FPS Counter
+
+Open a Unity project
+Install and import the FPS Package
+Right-click the hierarchy and follow UI -> Text - TextMeshPro
+Attach the ‘FPSDisplay’ script to the canvas
+Drag in the TextMeshPro text into the ‘Fps text’ section of the script
+Reposition the text where you would like the counter to appear
+Turn off Vsync to prevent your monitor refresh rate from limiting your fps
+Press play and your counter will now be counting the current fps

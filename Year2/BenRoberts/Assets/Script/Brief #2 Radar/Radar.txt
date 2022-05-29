@@ -1,0 +1,10 @@
+Radar Package:
+
+Open a Unity project
+Install and import the Radar Package
+Go to the ‘Items’ folder in the package and select ‘RadarPoint’ 
+Go to the inspector and select layers, and add a new layer
+On Layer 6 add ‘Invisible’ and on Layer 7 ‘Radar’ (These must be spelt properly)
+Go back to the ‘Items’ folder and select the layer again for the ‘RadarPoint’ this should automatically gain the ‘Invisible’ layer, same with ‘RadarPoint1’ if they do not assign these layers to them
+Go to the game view and at the top change from Free to Full HD 1920x1080
+The scene supplied has 4 enemies but to add additional enemies go to the radar script and open the ‘Tracked Objects’ and simply drag in objects you wish to be tracked as enemies

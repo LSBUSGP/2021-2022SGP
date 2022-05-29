@@ -1,0 +1,11 @@
+Scrolling Text:
+
+Open a Unity project
+Install and import the Scroll Text Package
+Download any repeating texture from the web, or use the material provided in the scene
+Create a plane in the scene and attach the repeating material
+Attach the ‘Scroll Tex’ script to the plane
+Edit the values on how you wish the material to scroll
+Press play and the texture will begin to scroll seamlessly indefinitely
+Duplicate this plane and edit the values of this new plane
+Press play and you will have 2 varying scrolling textures

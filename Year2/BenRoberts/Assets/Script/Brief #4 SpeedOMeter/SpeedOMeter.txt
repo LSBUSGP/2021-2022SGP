@@ -1,0 +1,14 @@
+SpeedOMeter Package:
+
+Open a Unity project
+Install and import the SpeedOMeter package
+Create a UI canvas
+Create an image and add the SpeedOMeter Graphic
+Attach the SpeedOMeter script
+Create a UI text child to the SpeedOMeter and centre it in the middle of the graphic
+Create an empty child object to the SpeedOMeter and call it arrow - and create a child UI image for that arrow call it an image
+Attach the arrow image to the UI image (You may need to adjust the pivot centre of the arrow image to the bottom to make the rotation better)
+Within the ‘SpeedOMeter’ script in the inspector, window attach your Player who must have a rigidbody component
+Go to the arrow game object and rotate it so it faces the minimum value and maximum value on the SpeedOMeter graphic and add these values to the script in the inspector
+Assign the Speed text and the arrow image in their respectful sections
+Press play and the SpeedOMeter should be tracking your speed
